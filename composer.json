@@ -1,0 +1,19 @@
+{
+    "name": "minidatum/belajarcomposerlib",
+    "description": "Belajar Composer Lib",
+    "type": "library",
+    "authors": [
+        {
+            "name": "minidatum",
+            "email": "echo.alrendyssimarmata@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=8"
+    },
+    "autoload": {
+        "psr-4": {
+            "minidatum\\belajar\\":"src/"
+        }
+    }
+}
